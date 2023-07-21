@@ -1,0 +1,29 @@
+
+import java.util.*;
+class replacement
+{
+ public static void main(String[] args)
+{
+ int n[],temp;
+ Scanner sc = new Scanner(System.in); 
+ System.out.println("sc"+num);
+ int n= s.nextInt();
+ for(int i=n-1;i>=1;i--)
+ {
+  if(i=0,i<=n-1)
+  i++;
+  {
+   temp=arr[i];
+   arr[j]=arr[i];
+   temp=arr[i];
+  }
+  else
+   {
+     i--;
+   }
+System.out.println("permutation",arr[i]);
+     
+  
+  
+   
+ 

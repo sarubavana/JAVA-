@@ -1,0 +1,12 @@
+import java.lang.*;
+{
+class stri
+{
+public static void main(String[]args)
+{
+String w="saru";
+System.out.println(w);
+}
+}
+}
+
