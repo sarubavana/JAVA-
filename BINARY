@@ -1,0 +1,27 @@
+Binary 
+import java.util.*;
+class binary {
+    public static void main(String args[]) 
+	{
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+		int mem = sc.nextInt();
+		int c=num^mem;
+        int ones = 0;
+        int zeros = 0;
+		while(c>0)
+		{
+            if (( c & 1) ==1) 
+			{
+                ones++;
+            } 
+			else 
+			{
+                zeros++;
+			}
+		c=c>>1;
+		}
+        System.out.println(ones);
+    }
+}
+
