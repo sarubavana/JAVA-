@@ -1,0 +1,38 @@
+When a subclass inherits from a superclass, it also inherits its methods; however, it can also override the superclass methods (as well as declare and implement new ones). Consider the following Sports class:
+import java.util.*;
+class Sports{
+
+    String getName(){
+        return "Generic Sports";
+    }
+    void getNumberOfTeamMembers(){
+        System.out.println( "Each team has n players in " + getName() );
+    }
+}
+
+class Soccer extends Sports{
+    @Override
+    String getName(){
+        return "Soccer Class";
+    }
+class MyCalculator implements AdvancedArithmetic {
+    public int divisorSum(int n) {
+        if (n <= 1) { return n; }
+
+        int res = n + 1;
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0) {
+                res += i;
+            }
+        }
+public class Solution{
+	
+    public static void main(String []args){
+        Sports c1 = new Sports();
+        Soccer c2 = new Soccer();
+        System.out.println(c1.getName());
+        c1.getNumberOfTeamMembers();
+        System.out.println(c2.getName());
+        c2.getNumberOfTeamMembers();
+	}
+}
